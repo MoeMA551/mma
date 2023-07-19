@@ -1,0 +1,181 @@
+body{
+    padding: 0px;
+    margin: 0px
+}
+header{
+    width:100%;
+    height:100px;
+    background-color: black;
+    color:white;
+    left:0;
+    right:0;
+    position:fixed;
+}
+#main{
+    padding-top: 100px;
+    margin-bottom: 0px;
+    width:100%;
+    height:500px;
+    background-color:midnightblue;
+}
+#contact{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:150px;
+    background-color: aqua;
+}
+#aboutme{
+    width:100%;
+    height:80px;
+    background-color: black;
+    font-size: 60px;
+    text-align:center;
+    color: white;
+}
+#details{
+    width:100%;
+    height:500px;
+    background-color: aquamarine;
+}
+footer{
+    width:100%;
+    height:150px;
+    background-color: black;
+}
+#logo{
+    margin-left:30px;
+    width:150px;
+    height:60px;
+    color: white;
+    float: left;
+    font-size: 60px;
+}
+nav ul {
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-top:20px;
+    width:450px;
+    height:60px;
+    float:right;
+}
+nav ul li{
+    float:left;
+    display:inline;
+    font-size: 30px;
+    list-style:none;
+    position:relative;
+}
+#photo{
+    width:430px;
+    height: 430px;
+    margin:35px 170px;
+    margin-right:50px;
+    float:left;
+}
+#intro{
+    width:800px;
+    height:430px;
+    float:right;
+    margin:35px 30px;
+}
+.items{
+    width:120px;
+    height:120px;
+    float:left;
+    margin:15px 85px;
+    display:inline;
+}
+.icon{
+    width:120px;
+    height:120px;
+}
+.profile{
+    width:430px;
+    height:430px;
+    border-radius:50%;
+}
+
+p{
+    color:white;
+    font-size: 25px;
+    line-height: 60px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding:20px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color:black;
+}
+
+#biography{
+    font-size: 25px;
+    color:black;
+    margin-left: 40px;
+    padding-top:20px;
+    line-height: 40px;
+}
+
+.tab{
+    width:40px;
+}
+
+@media all and (max-width:960px){
+    body{
+        background-color: red;
+    }
+    header{
+        height:auto;
+    }
+    #logo{
+        margin:0 auto;
+        float:none;
+    }
+
+    nav ul {
+        float:none;
+        text-align: center;
+        display:block;
+        margin:0 auto;
+    }
+
+    nav ul li{
+        text-align: center;
+        display:inline-block;
+    }
+    #main{
+        padding-top:160px;
+        height:auto;
+    }
+    #photo{
+        float:none;
+        margin:0 auto;
+    }
+    #intro{
+        float:none;
+        margin:0 auto;
+    }
+    p{
+        padding-left:5px;
+        font-size:20px;
+    }
+ 
+    #contact{
+        height: auto;
+    }
+    .items{
+        width:75px;
+        height:75px;
+        margin:20px 30px;
+        padding-top: 10px;
+        float:none;
+        display:inline-block;
+    }
+    .icon{
+        width:50px;
+        height:50px;
+    }
+}
