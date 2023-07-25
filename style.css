@@ -48,11 +48,13 @@ footer{
 #logo{
     padding:0;
     margin-left:1%;
-    width:20%;
-    height:100%;
     color: white;
     float: left;
     font-size: 6vw;
+}
+#image{
+    margin: 1%;
+    padding: 1%;s
 }
 nav ul {
     width:50%;
